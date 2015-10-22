@@ -24,4 +24,4 @@ or
 
 discrimination('./exportdata/foo.csv')  - assuming that you're currently in ./documents/matlab (to check type pwd)
 
-These are designed for Linux / OS X use.  If Windows is the host operating system, be sure to format the directory structures (input arguments, as well as outputs in the actual source code).
+These are designed for Linux / OS X use.  If Windows is the host operating system, be sure to format the directory structures (input arguments, as well as outputs in the actual source code) accordingly.
