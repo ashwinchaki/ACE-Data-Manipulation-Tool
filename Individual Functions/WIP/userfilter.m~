@@ -1,0 +1,38 @@
+function userfilter(inputfile)
+
+
+fin = fopen(inputfile);
+outputfile = ['out_',inputfile];
+fout = fopen(outputfile);
+
+
+line = fgets(fin);
+fprintf(fout,'%s\n',line); % headers added
+
+
+
+while (~feof(fin))
+    line=fgets(fin);
+    substr = 
+    if strfind(user,'ORANGE') | strfind(user, 'BLUE') | strfind(user,'GREEN')
+        fprintf(fout,'%s\n',line);
+    end
+end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
